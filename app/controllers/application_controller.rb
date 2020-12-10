@@ -1,5 +1,6 @@
+# frozen_string_literal: true
+
+# Application Controller
 class ApplicationController < ActionController::Base
-  def hello
-    render html: "Sample App"
-  end
+  include SessionHelper
 end
